@@ -15,15 +15,62 @@
     header{
         font-size: 1.5rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        height: 300px;
+        height: 80px;
         padding: 15px 15px;
         position: static;
     }
 
-    nav{
-        width: 300px;
+    .div-nav i {
+        font-size: 18px;
+    }
+
+    .menu-label i {
+        font-size: 18px;
+    }
+
+
+    /* menu hamburguesa */
+
+    .header-navbar {
+        width: 20px;
+        padding: 15px;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        top: 80px;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center; 
+        backdrop-filter: blur(16px) saturate(200%);
+        -webkit-backdrop-filter: blur(16px) saturate(200%);
+        background-color: rgba(17, 25, 40, 0.85);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        border-top: none;
+        border-radius: 0px 0px 16px 16px;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 30px;
+        z-index: 2;
+        display: none;
+    }
+    .menu-label {
+        display: flex;
+    }
+
+
+    #menu-toggle:checked + .navbar-menu {
+        display: flex;
+    }
+    .ul-style {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
     
     ul{
@@ -34,7 +81,7 @@
     }
 
     .logoheader{
-        width: 150px;
+        width: 70px;
     }
 
     .banner{
@@ -165,6 +212,47 @@
         padding: 10px;
     }
 
+    /* Contacto */
+
+    .sect_contacto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        font-size: 1.8rem;
+    }
+
+    #contact {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        
+    }
+
+    .contact__content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        font-size: 1.8rem;
+
+    }
+
+
+    .contact__maps {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        padding: 20px;
+    }
+
+    iframe {
+        width: 250px;
+    }
+
 }
 
 /* tablet */
@@ -174,6 +262,49 @@
     body{
         background-color: rgb(255, 255, 255);
     }
+
+    /* menu hamburguesa */
+
+    .header-navbar {
+        width: 20px;
+        padding: 15px;
+    }
+
+    .navbar-menu {
+        position: absolute;
+        top: 120px;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center; 
+        backdrop-filter: blur(16px) saturate(200%);
+        -webkit-backdrop-filter: blur(16px) saturate(200%);
+        background-color: rgba(17, 25, 40, 0.85);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        border-top: none;
+        border-radius: 0px 0px 16px 16px;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 30px;
+        z-index: 2;
+        display: none;
+    }
+    .menu-label {
+        display: flex;
+    }
+
+
+    #menu-toggle:checked + .navbar-menu {
+        display: flex;
+    }
+    .ul-style {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
 
     header a {
         font-size: 1.8rem;
@@ -189,6 +320,7 @@
         flex-wrap: wrap;
         width: 320px;
     }
+
 
     .banner img{
         width: 500px;

@@ -8,27 +8,40 @@
     
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mediaq.css">
+
+    <script src="https://kit.fontawesome.com/8e7cd8452f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <!-- logo -->
-        <a href="../index.html"> <img src="../medios/logopng.png" alt="logo" class="logopremier" ></a>
-        
-        <!--nav-->
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="./contacto.html"">Contacto</a></li>
-                <li><a href="./page/carrito.html">Carrito</a></li>
-                
-            </ul>
-        </nav>
+
+        <!-- logo --> 
+        <img src="../medios/logopng.png" alt="logo" class="logoheader" > 
+
+        <div class="div-nav">
+
+            <nav class="header-navbar">
+                <label for="menu-toggle" class="menu-label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="menu-toggle">
+
+                <div class="navbar-menu">
+                    <ul class="ul-style">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../page/productos.html">Productos</a></li>
+                        <li><a href="../page/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+             </nav> 
+
+            <a href="../page/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
     </header>
 
     <main>
         <!-- Premier League -->
-            <h1 class="titulo">Premier League</h1>
+            <h1 class="titulo" id="premier-link">Premier League</h1>
             <div class="section_premier">
             
                 <div class="mancity">
@@ -71,7 +84,7 @@
 
         <!-- Serie A -->
         <section class="padre">
-            <h1 class="titulo">Serie A</h1>
+            <h1 class="titulo" id="serie-link">Serie A</h1>
             <div class="section_serie">
             
                 <div class="juventus">
@@ -114,7 +127,7 @@
             </div>
 
                 <!-- La Liga -->
-            <h1 class="titulo">La Liga EA</h1>
+            <h1 class="titulo" id="laliga-link">La Liga EA</h1> 
             <div class="section_laliga">
                 
                 <div class="barca">

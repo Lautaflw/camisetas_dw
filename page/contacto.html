@@ -9,22 +9,35 @@
     
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mediaq.css">
+
+    <script src="https://kit.fontawesome.com/8e7cd8452f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <!-- logo -->
-        <a href="../index.html"> <img src="../medios/logopng.png" alt="logo" class="logopremier" ></a>
-        
-        <!--nav-->
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="./page/carrito.html">Carrito</a></li>
-                
-            </ul>
-        </nav>
+
+        <!-- logo --> 
+        <img src="../medios/logopng.png" alt="logo" class="logoheader" > 
+
+        <div class="div-nav">
+
+            <nav class="header-navbar">
+                <label for="menu-toggle" class="menu-label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="menu-toggle">
+
+                <div class="navbar-menu">
+                    <ul class="ul-style">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../page/productos.html">Productos</a></li>
+                        <li><a href="../page/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+             </nav> 
+
+            <a href="../page/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
     </header>
 
     <main>

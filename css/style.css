@@ -46,6 +46,47 @@ header{
 
 }
 
+.div-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 30px;
+}
+.div-nav i {
+    color: rgb(161, 255, 161);
+    font-size: 32px;
+}
+
+/* menu hamburguesa  */
+
+.menu-label i {
+    font-size: 32px;
+}
+
+.menu-label, 
+#menu-toggle {
+    display: none;
+}
+
+.header-navbar{
+    width: 100%;
+    gap: 15px;
+}
+
+.ul-style{
+    width: 100%;
+}
+
+.header-navbar,
+.ul-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .logoheader {
     width: 150px;
     cursor: pointer;

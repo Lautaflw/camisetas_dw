@@ -11,23 +11,36 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaq.css">
 
+    <script src="https://kit.fontawesome.com/8e7cd8452f.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header>
-        
+
         <!-- logo --> 
         <img src="./medios/logopng.png" alt="logo" class="logoheader" > 
 
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="./page/productos.html">Productos</a></li>
-                <li><a href="./page/contacto.html">Contacto</a></li>
-                <li><a href="./page/carrito.html">Carrito</a></li>
-            </ul>
-        </nav> 
-        
+        <div class="div-nav">
+
+            <nav class="header-navbar">
+                <label for="menu-toggle" class="menu-label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="menu-toggle">
+
+                <div class="navbar-menu">
+                    <ul class="ul-style">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./page/productos.html">Productos</a></li>
+                        <li><a href="./page/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+             </nav> 
+
+            <a href="./page/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
     </header>
 
     <main>
@@ -45,19 +58,19 @@
             <!-- presentacion -->
                 <div class="serie-a">
                      <h2>SERIE A</h2>
-                     <a href="./page/seriea.html"><img src="./medios/seriealog.jpg" alt="Serie A"></a>
+                     <a href="./page/productos.html#serie-link"><img src="./medios/seriealog.jpg" alt="Serie A"></a>
                      <p>Encontra acá las camisetas de la Serie A al mejor precio y calidad</p>
                 </div>
     
                 <div class="la-liga">
                     <h2>La Liga EASPORTS</h2>
-                    <a href="./page/laliga.html"><img src="./medios/laligalog.jpg" alt="La Liga"></a>
+                    <a href="./page/productos.html#laliga-link"><img src="./medios/laligalog.jpg" alt="La Liga"></a>
                     <p>Encontra acá las camisetas de La Liga EASPORTS al mejor precio y calidad</p>
                 </div>
     
                 <div class="premier-league">
                     <h2>Premier League</h2>
-                    <a href="./page/premier.html"><img src="./medios/premierlog.jpg" alt="Premier League"></a>
+                    <a href="./page/productos.html#pemier-link"><img src="./medios/premierlog.jpg" alt="Premier League"></a>
                     <p>Encontra acá las camisetas de la Premier League al mejor precio y calidad</p>
     
                 </div>
