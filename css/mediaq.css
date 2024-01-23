@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+/* Media Queries */
+
+/* mobile */
+@media only screen and (max-width: 500px){
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+    header{
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        padding: 15px 15px;
+        position: static;
+    }
+
+    nav{
+        width: 300px;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .logoheader{
+        width: 150px;
+    }
+
+    .banner{
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .banner img {
+        width: 300px;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+        
+    .titulo-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 10px 10px;
+        
+    }
+        
+    .divpadre{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        width: 100%;
+        gap: 40px;
+    } 
+
+    .serie-a {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        border-radius: 1rem;
+        background: #4568DC;
+        background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+        background: linear-gradient(to right, #B06AB3, #4568DC);
+    }    
+    
+    .la-liga {
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        border-radius: 1rem;
+    
+        background: #4568DC;
+        background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+        background: linear-gradient(to right, #B06AB3, #4568DC);
+    }
+    
+    .premier-league {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        border-radius: 1rem;
+    
+        background: #4568DC;
+        background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+        background: linear-gradient(to right, #B06AB3, #4568DC);
+    }    
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+
+    .footer__container{
+        font-size: 1.5rem;
+    }
+
+    .footer__redes h6 {
+        font-size: 1.5rem;
+    }   
+
+
+    /* Productos */
+
+    .section_premier {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+   
+    .section_serie {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section_laliga {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img-remeras{
+        width: 220px;
+    } 
+    
+    .mancity, .chelsea, .arsenal, .newcastle, .liverpool, .manunited {
+        width: 280px;
+        height: 350px;
+        padding: 10px;
+    }
+   
+    .juventus, .milan, .napoli, .roma, .inter, .lazio {
+        width: 280px;
+        height: 350px;
+        padding: 10px;
+    }
+
+    .barca, .realmadrid, .bilbao, .realsociedad, .girona, .valencia {
+        width: 280px;
+        height: 350px;
+        padding: 10px;
+    }
+
+}
+
+/* tablet */
+
+@media only screen and (min-width: 501px) and (max-width:950px) {
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+    header a {
+        font-size: 1.8rem;
+    }
+    nav{
+        width: 350px;
+        padding: 0%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 320px;
+    }
+
+    .banner img{
+        width: 500px;
+
+    }
+
+    .divpadre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+    } 
+
+    .serie-a, .la-liga, .premier-league{
+        width: 350px;
+        height: 450px;
+        font-size: 2.2rem;
+        
+    }
+
+    .footer__redes h6 {
+        font-size: 2rem;
+    }
+} 
+/* desktop */
+
+@media only screen and (min-width: 951px) {
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+
+    header a {
+        font-size: 2.2rem;
+    }
+
+    nav{
+        width: 600px;
+        padding: 0%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+
+    .banner img{
+        width: 800px;
+
+    }
+
+    .divpadre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+    } 
+
+    .serie-a, .la-liga, .premier-league{
+        width: 400px;
+        height: 500px;
+        font-size: 2.2rem;
+        
+    }
+
+    .img-remeras{
+        width: 320px;
+    } 
+
+    .section_premier {
+        gap: 100px;
+    }
+   
+    .section_serie {
+        gap: 100px;
+    }
+
+    .section_laliga {
+        gap: 100px;
+    }
+    
+    .mancity, .chelsea, .arsenal, .newcastle, .liverpool, .manunited {
+        width: 400px;
+        padding: 10px;
+    }
+   
+    .juventus, .milan, .napoli, .roma, .inter, .lazio {
+        width: 400px;
+        padding: 10px;
+    }
+
+    .barca, .realmadrid, .bilbao, .realsociedad, .girona, .valencia {
+        width: 400px;
+        padding: 10px;
+    }
+
+
+
+    footer {
+        font-size: 2.0rem;
+    }
+
+
+    .footer__container{
+        font-size: 2.0rem;
+    }
+
+    .footer__redes h6 {
+        font-size: 2.2rem;
+    }
+}
+
+
+
+
+

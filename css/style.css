@@ -1,0 +1,910 @@
+/* paleta de colores
+#5C5470 gris
+#352F44 gris oscuro
+#2A2438 negro */
+
+html {
+    font-size: 62.5% 
+}
+/* 1rem = 10px /*
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* font-family: 'Libre Baskerville', serif; */
+
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.2rem;
+    }
+
+/* header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    padding: 30px 30px;
+    position: sticky;
+    top: 0px;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+
+}
+
+.logoheader {
+    width: 150px;
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding: 10px 10px;
+
+}
+
+ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 400px;
+    gap: 20px;
+    padding: 10px;
+}
+
+ul a{
+    font-size: 2.0rem;
+    color: white;
+    text-decoration: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Main de index */
+
+main{
+width: 100%;
+text-align: center;
+}
+
+.encabezado{
+width: 100%;
+}
+
+.banner{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 0px;
+    width: 100%;
+    padding: 20px 20px; 
+}
+
+.banner img {
+    width: 800px;
+}
+
+.titulo-home{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+
+}
+
+
+.divpadre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 30px 30px;
+}
+
+.divpadre img {
+    width: 200px;
+}
+
+.serie-a{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 30px 30px;
+    width: 30%;
+    border-radius: 1rem;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.la-liga{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 30px 30px;
+    width: 30%;
+    border-radius: 1rem;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.premier-league{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 30px 30px;
+    width: 30%;
+    border-radius: 1rem;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+/* estilo de footer  */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5C5470;
+    width: 100%;
+    padding: 40px 20px 30px 20px;
+    gap: 50px;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+
+
+}
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 400px;
+}
+.footer__soporte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.soporte__data {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.data--estilo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.data--estilo i {
+    font-size: 2.5rem;
+}
+.footer__container h6 {
+    font-size: 2.5rem;
+}
+
+.footer__redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer__redes a{
+    font-size: 2.5rem;
+}
+.redes--icon {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+/*PRODUCTOS*/
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 50px;
+}
+
+.logopremier {
+    width: 150px;
+    cursor: pointer;
+}
+
+.img-remeras {
+    width: 300px;
+    /* border-radius: 15px */
+}
+
+.section_premier {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    border: 1px solid black;
+}
+
+.section_serie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    border: 1px solid black;
+}
+
+.section_laliga {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    border: 1px solid black;
+}
+
+
+.mancity{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+
+}    
+
+.chelsea{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.arsenal{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.newcastle{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.liverpool{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.manunited{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+
+
+/*SERIE A*/
+
+.juventus{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.milan{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.napoli{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.roma{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.inter{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.lazio{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}  
+
+
+/*LA LIGA*/
+
+.barca{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.realmadrid{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.bilbao{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.realsociedad{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+.girona{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+.valencia{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 1rem;
+    width: 400px;
+    height: 500px;
+
+    border: 1px solid black;
+    
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}    
+
+
+/* CONTACTO */
+
+
+.titulo{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.sect_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+    padding: 50px;
+}
+
+.contacto_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+.divcontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 1rem;
+
+}
+
+.divcontacto img {
+    width: 100px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px;
+    gap: 200px;
+}
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1rem;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+.contact__mensaje {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact__mensaje h5 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--title-scnd);
+}
+.contact__mensaje--textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact__mensaje--textarea label {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.contact__mensaje--textarea input {
+    width: 300px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+}
+.contact__mensaje--textarea textarea {
+    width: 300px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+.contact__mensaje--textarea input:focus, textarea:focus {
+    background-color: white;
+}
+.contact__mensaje--textarea a {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.hover-btn{
+    background-color: white;
+}
+
+.contact__location {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact__maps h5 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.contact__maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1rem;
+
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+.contact__maps iframe {
+    border-radius: 10px;
+}
+
+.location--icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.location--icon span {
+    font-size: 18px;
+}
+.location--icon img {
+    width: 20px;
+    font-size: 24px;
+}
