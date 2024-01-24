@@ -40,9 +40,9 @@ header{
     position: sticky;
     top: 0px;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -190,11 +190,12 @@ width: 100%;
     gap: 20px;
     padding: 30px 30px;
     width: 30%;
+    color: white;
     border-radius: 1rem;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .la-liga{
@@ -208,11 +209,12 @@ width: 100%;
     gap: 20px;
     padding: 30px 30px;
     width: 30%;
+    color: white;
     border-radius: 1rem;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .premier-league{
@@ -225,12 +227,14 @@ width: 100%;
     border: 1px solid black;
     gap: 20px;
     padding: 30px 30px;
-    width: 30%;
+    width: 400px;
+    height: 450px;
+    color: white;
     border-radius: 1rem;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 /* estilo de footer  */
@@ -246,9 +250,9 @@ width: 100%;
     padding: 40px 20px 30px 20px;
     gap: 50px;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 
 
 }
@@ -260,6 +264,7 @@ width: 100%;
     max-width: 1200px;
     padding: 20px;
     gap: 400px;
+    color: white;
 }
 .footer__soporte {
     display: flex;
@@ -298,6 +303,7 @@ width: 100%;
     align-items: center;
     text-align: center;
     gap: 20px;
+    color: white;
 }
 
 .footer__redes a{
@@ -386,9 +392,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 
 }    
 
@@ -409,9 +415,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .arsenal{
@@ -431,9 +437,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .newcastle{
@@ -453,9 +459,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .liverpool{
@@ -475,9 +481,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .manunited{
@@ -497,9 +503,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 
@@ -523,9 +529,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .milan{
@@ -545,9 +551,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .napoli{
@@ -567,9 +573,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .roma{
@@ -589,9 +595,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .inter{
@@ -611,9 +617,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .lazio{
@@ -633,9 +639,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }  
 
 
@@ -658,9 +664,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .realmadrid{
@@ -680,9 +686,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .bilbao{
@@ -702,9 +708,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .realsociedad{
@@ -724,9 +730,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 .girona{
@@ -746,9 +752,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 
 .valencia{
@@ -768,9 +774,9 @@ width: 100%;
     border: 1px solid black;
     
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }    
 
 

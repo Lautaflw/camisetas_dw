@@ -80,8 +80,8 @@
         width: 100%;
     }
 
-    .logoheader{
-        width: 70px;
+    .logoheader {
+        width: 150px;
     }
 
     .banner{
@@ -126,9 +126,6 @@
         align-items: center;
         width: 250px;
         border-radius: 1rem;
-        background: #4568DC;
-        background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-        background: linear-gradient(to right, #B06AB3, #4568DC);
     }    
     
     .la-liga {
@@ -138,10 +135,6 @@
         align-items: center;
         width: 250px;
         border-radius: 1rem;
-    
-        background: #4568DC;
-        background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-        background: linear-gradient(to right, #B06AB3, #4568DC);
     }
     
     .premier-league {
@@ -150,10 +143,6 @@
         align-items: center;
         width: 250px;
         border-radius: 1rem;
-    
-        background: #4568DC;
-        background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-        background: linear-gradient(to right, #B06AB3, #4568DC);
     }    
 
     footer {
@@ -192,24 +181,28 @@
 
     .img-remeras{
         width: 220px;
+        height: 220px;
     } 
     
     .mancity, .chelsea, .arsenal, .newcastle, .liverpool, .manunited {
-        width: 280px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         padding: 10px;
+        color: white;
     }
    
     .juventus, .milan, .napoli, .roma, .inter, .lazio {
-        width: 280px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         padding: 10px;
+        color: white;
     }
 
     .barca, .realmadrid, .bilbao, .realsociedad, .girona, .valencia {
-        width: 280px;
-        height: 350px;
+        width: 250px;
+        height: 400px;
         padding: 10px;
+        color: white;
     }
 
     /* Contacto */
@@ -305,6 +298,9 @@
         gap: 10px;
     }
 
+    .logoheader {
+        width: 250px;
+    }
 
     header a {
         font-size: 1.8rem;
@@ -323,7 +319,7 @@
 
 
     .banner img{
-        width: 500px;
+        width: 100%;
 
     }
 
@@ -341,11 +337,37 @@
         width: 350px;
         height: 450px;
         font-size: 2.2rem;
-        
     }
 
     .footer__redes h6 {
         font-size: 2rem;
+    }
+
+    /* Productos */
+
+    .img-remeras{
+        width: 320px;
+    } 
+    
+    .mancity, .chelsea, .arsenal, .newcastle, .liverpool, .manunited {
+        width: 350px;
+        height: 470px;
+        padding: 10px;
+        color: white;
+    }
+   
+    .juventus, .milan, .napoli, .roma, .inter, .lazio {
+        width: 350px;
+        height: 470px;
+        padding: 10px;
+        color: white;
+    }
+
+    .barca, .realmadrid, .bilbao, .realsociedad, .girona, .valencia {
+        width: 350px;
+        height: 470px;
+        padding: 10px;
+        color: white;
     }
 } 
 /* desktop */
@@ -354,6 +376,10 @@
 
     body{
         background-color: rgb(255, 255, 255);
+    }
+
+    .logoheader {
+        width: 300px;
     }
 
     header a {
@@ -372,8 +398,8 @@
         width: 600px;
     }
 
-    .banner img{
-        width: 800px;
+    .banner img {
+        width: 100%;
 
     }
 
@@ -389,7 +415,7 @@
 
     .serie-a, .la-liga, .premier-league{
         width: 400px;
-        height: 500px;
+        height: 450px;
         font-size: 2.2rem;
         
     }
@@ -413,16 +439,19 @@
     .mancity, .chelsea, .arsenal, .newcastle, .liverpool, .manunited {
         width: 400px;
         padding: 10px;
+        color: white;
     }
    
     .juventus, .milan, .napoli, .roma, .inter, .lazio {
         width: 400px;
         padding: 10px;
+        color: white;
     }
 
     .barca, .realmadrid, .bilbao, .realsociedad, .girona, .valencia {
         width: 400px;
         padding: 10px;
+        color: white;
     }
 
 
