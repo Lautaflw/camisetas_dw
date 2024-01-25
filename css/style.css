@@ -374,6 +374,7 @@ width: 100%;
     border: 1px solid black;
 }
 
+/* Premier League */
 
 .mancity{
     margin: 0;
@@ -783,6 +784,7 @@ width: 100%;
 /* CONTACTO */
 
 
+
 .titulo{
     margin: 0;
     padding: 10px;
@@ -847,9 +849,9 @@ width: 100%;
     border: 1px solid black;
     border-radius: 1rem;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
 .contact__mensaje {
     display: flex;
@@ -932,10 +934,11 @@ width: 100%;
     border: 1px solid black;
     border-radius: 1rem;
 
-    background: #4568DC;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
 }
+
 .contact__maps iframe {
     border-radius: 10px;
 }
@@ -948,9 +951,11 @@ width: 100%;
     text-align: center;
     gap: 10px;
 }
+
 .location--icon span {
     font-size: 18px;
 }
+
 .location--icon img {
     width: 20px;
     font-size: 24px;

@@ -95,7 +95,8 @@
     }
 
     .banner h1 {
-        font-size: 2rem;
+        font-size: 2.0rem;
+        font-weight: bolder;
     }
         
     .titulo-home {
@@ -328,7 +329,11 @@
 
     .banner img{
         width: 100%;
+    }
 
+    .banner h1 {
+        font-size: 2.5rem;
+        font-weight: bolder;
     }
 
     .divpadre{
@@ -410,6 +415,11 @@
         width: 100%;
 
     }
+    
+    .banner h1 {
+        font-size: 3.0rem;
+        font-weight: bolder;
+    }
 
     .divpadre{
         display: flex;
@@ -421,23 +431,38 @@
         gap: 40px;
     } 
 
+    #premier-link {
+        font-size: 3.0rem;
+        font-weight: bolder;
+    }
+
+    #serie-link {
+        font-size: 3.0rem;
+        font-weight: bolder;
+    }
+
+    #laliga-link {
+        font-size: 3.0rem;
+        font-weight: bolder;
+    }
+
     .serie-a, .la-liga, .premier-league{
         width: 400px;
         height: 450px;
         font-size: 2.2rem;
         
     }
-
-    .img-remeras{
-        width: 320px;
-    } 
-
+    
     .section_premier {
         gap: 100px;
     }
    
     .section_serie {
         gap: 100px;
+    }
+    
+    .carousel {
+        width: 350px;
     }
 
     .section_laliga {
@@ -461,7 +486,6 @@
         padding: 10px;
         color: white;
     }
-
 
 
     footer {
